@@ -28,3 +28,21 @@ h2{font-size:22px;margin:36px 0 8px}
 footer.site{border-top:1px solid var(--line);padding:24px 0;color:var(--muted);font-size:15px}
 footer.site a{margin-right:16px}
 .meta{color:var(--muted);font-size:15px}
+/* 1.1: screenshots, feature rows, social image */
+.hero .status{display:inline-block;margin-top:20px;padding:6px 14px;border-radius:999px;background:rgba(242,153,74,.16);color:#F7B57A;font-weight:700;font-size:15px}
+.shots{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding:8px 20px 20px;margin:0 auto;max-width:1100px}
+.shots figure{flex:0 0 auto;margin:0;scroll-snap-align:center;text-align:center}
+.shots img{display:block;width:220px;height:auto;border-radius:30px;border:6px solid #1E2B42;box-shadow:0 12px 30px rgba(14,22,36,.25)}
+.shots figcaption{margin-top:10px;font-weight:700;font-size:15px;color:var(--muted)}
+.strip{background:var(--navy);padding:8px 0 28px}
+.strip figcaption{color:#C9D4E2}
+.feature{display:grid;grid-template-columns:200px 1fr;gap:28px;align-items:center;margin:40px 0}
+.feature img{width:200px;border-radius:28px;border:6px solid #1E2B42}
+.feature h2{margin-top:0}
+.feature p{margin:0 0 8px}
+.feature ul{margin:8px 0 0;padding-left:20px}
+@media (max-width:560px){.feature{grid-template-columns:1fr}.feature img{width:180px;margin:0 auto}}
+.pill{display:inline-block;font-size:13px;font-weight:800;letter-spacing:.4px;text-transform:uppercase;color:var(--orange-light);margin-bottom:4px}
+.works{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 0}
+.works span{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-weight:600;font-size:15px}
+@media (prefers-reduced-motion:no-preference){.shots{scroll-behavior:smooth}}
