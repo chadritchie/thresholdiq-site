@@ -57,3 +57,5 @@ footer.site a{margin-right:16px}
 .hero .fine a{color:#F7B57A}
 /* Footer links: keep each on one line, with room to tap */
 footer.site a{display:inline-block;white-space:nowrap;margin:0 18px 6px 0;padding:6px 0}
+/* Keep "Get faster." together; the headline breaks between the two sentences */
+.hero h1 span{white-space:nowrap}
