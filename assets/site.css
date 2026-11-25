@@ -54,3 +54,4 @@ footer.site a{margin-right:16px}
 .get .beta{display:inline-flex;align-items:center;height:56px;padding:0 22px;border-radius:12px;border:1.5px solid rgba(242,153,74,.6);color:#F7B57A;font-weight:700;font-size:16px;text-decoration:none}
 .get .beta:hover{background:rgba(242,153,74,.16);color:#F7B57A}
 .hero .fine{font-size:15px;color:#AAB6C5;margin-top:12px}
+.hero .fine a{color:#F7B57A}
